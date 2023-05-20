@@ -4,7 +4,7 @@ $IP="192.168.3.4"
 $HOSTNAME="CASABOLLA"
 
 # Setup object to manage credentials and shortcuts
-$cred= Get-Credential -Credential
+$cred= Get-Credential
 $WshShell = New-Object -comObject WScript.Shell
 
 ### Map NAS shares to drive: -Scope Global to make result available to the OS instead of the script only ###
