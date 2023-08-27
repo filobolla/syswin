@@ -91,6 +91,10 @@
         "winget": "Git.Git;VSCodium.VSCodium",
         "onDesktop":"false"
     },
+    "Windows Terminal":{
+        "winget": "Microsoft.WindowsTerminal",
+        "onDeskop":"false"
+    },
     "WinSCP":{
         "winget":"WinSCP.WinSCP",
         "onDesktop":"false"
