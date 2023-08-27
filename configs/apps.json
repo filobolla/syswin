@@ -1,0 +1,106 @@
+{
+    "7-Zip":{
+        "winget": "7zip.7zip",
+        "onDesktop":"false"
+    },
+    "Adobe Acrobat":{
+        "winget": "Adobe.Acrobat.Reader.64-bit",
+        "onDesktop":"false"
+    },
+    "Arduino IDE":{
+        "winget":"ArduinoSA.Arduino.stable",
+        "onDesktop":"false"
+    },
+    "Bitwarden":{
+        "winget": "Bitwarden.Bitwarden",
+        "onDesktop":"false"
+    },
+    "Brave":{
+        "winget": "Brave.Brave",
+        "onDesktop":"false"
+    },
+    "Dropbox":{
+        "winget": "Dropbox.Dropbox",
+        "onDesktop":"true"
+    },
+    "GlaryUtilities":{
+        "Winget": "Glarysoft.GlaryUtilities",
+        "onDesktop":"false"
+    },
+    "LTSpice XVII":{
+        "winget":"AnalogDevices.LTspice",
+        "onDesktop":"false"
+    },
+    "Malwarebytes":{
+        "winget": "Malwarebytes.Malwarebytes",
+        "onDesktop":"false"
+    },
+    "MarkText":{
+        "winget":"MarkText.MarkText",
+        "onDesktop":"false"
+    },
+    "Nextcloud":{
+        "winget":"Nextcloud.NextcloudDesktop",
+        "onDesktop":"false"
+    },
+    "Nmap":{
+        "winget":"Insecure.Nmap",
+        "onDesktop":"false"
+    },
+    "Obsidian":{
+        "winget": "Obsidian.Obsidian",
+        "onDesktop":"false"
+    },
+    "OneDrive":{
+        "winget": "Microsoft.OneDrive",
+        "onDesktop":"true"
+    },
+    "OpenVPN":{
+        "winget":"OpenVPNTechnologies.OpenVPN",
+        "onDesktop":"false"
+    },
+    "Parsec":{
+        "winget":"Parsec.Parsec",
+        "onDesktop":"false"
+    },
+    "PowerToys":{
+        "winget": "Microsoft.PowerToys",
+        "onDesktop":"false"
+    },
+    "QuickLook":{
+        "winget":"QL-Win.QuickLook",
+        "onDesktop":"false"
+    },
+    "Rufus":{
+        "winget": "Rufus.Rufus",
+        "onDesktop":"false"
+    },
+    "Teamviewer":{
+        "winget": "TeamViewer.TeamViewer",
+        "onDesktop":"false"
+    },
+    "Ubisoft Connect":{
+        "winget": "Ubisoft.Connect",
+        "onDeskop":"false"
+    },
+    "VLC Media Player":{
+        "winget": "VideoLAN.VLC",
+        "onDesktop":"false"
+    },
+    "VSCodium":{
+        "winget": "Git.Git;VSCodium.VSCodium",
+        "onDesktop":"false"
+    },
+    "WinSCP":{
+        "winget":"WinSCP.WinSCP",
+        "onDesktop":"false"
+    },
+    "Wireshark":{
+        "winget": "WiresharkFoundation.Wireshark",
+        "onDesktop":"false"
+    },
+    "Zint":{
+        "winget":"Zint.Zint",
+        "onDesktop":"false"
+    }
+}
