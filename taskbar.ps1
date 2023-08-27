@@ -6,10 +6,10 @@
 $shell_path="$env:userprofile\AppData\Local\Microsoft\Windows\Shell"
 Copy-Item "LayoutModification.xml" -Destination $shell_path
 
-# Reset Start menu present settings
-Remove-Item -Force -Recurse -Path "HKCU:\Software\Microsoft\Windows\CurrentVersion\CloudStore\Store\Cache\DefaultAccount"
-# Reset Taskbar present settings
-Remove-Item -Force -Recurse -Path "HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Taskband"
+# Reset Start menu layout cache (not affecting preferences)
+Remove-Item -Force -Recurse -Path 'HKCU:\Software\Microsoft\Windows\CurrentVersion\CloudStore\Store\Cache\DefaultAccount\*$start.tilegrid$windows.data.curatedtilecollection.tilecollection'
+# Reset Taskbar layout cache
+Remove-Item -Force -Recurse -Path 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Taskband'
 
 # Restart Explorer to apply changes
 Get-Process explorer | Stop-Process
